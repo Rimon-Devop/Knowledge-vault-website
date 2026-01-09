@@ -24,6 +24,7 @@
     font-size: 16px;
     font-weight: 600;
     border-radius: 4px;
+    cursor: pointer;
 
 }
 
@@ -97,13 +98,54 @@
 .banner-container .early{
 
     background-color: #FFFFFF;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
     padding: 8px 12px;
     border: none;
     border-radius: 500px;
     color: #469165;
     font-size: 16px;
     font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 16px;
+
+}
+
+.early .out-circle{
+
+    width: 16px;
+    height: 16px;
+    background-color: #4691652f;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.early .in-circle{
+
+    width: 12px;
+    height: 12px;
+    background-color: #46916570;
+    border-radius: 8px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.early .cen-circle{
+
+    width: 6px;
+    height: 6px;
+    background-color: #469165;
+    border-radius: 8px;
 
 }
 .banner-container .title-container{
@@ -162,7 +204,9 @@
     font-weight: 600;    
     border: 1px solid white;
     border-radius: 4px;
+    cursor: pointer;
 }
+
 
 
 
