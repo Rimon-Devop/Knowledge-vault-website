@@ -43,8 +43,8 @@
 
 #menu{
     display: flex;
-    justify-content: space-between;
-    padding: 16px 120px;
+    justify-content: space-around;
+    padding: 16px 0 16px 0;
     align-items: center;
 
 
@@ -281,7 +281,170 @@
 
 }
 
+#third-section .third-container{
 
+    width: 85%;
+    max-width: 1360px;
+    margin: 44px auto 0;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+
+}
+
+#third-section .third-container .image img{
+
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+
+}
+#third-section .third-container .container{
+
+    width: 51%;
+    max-width: 700px;
+    margin: 102px 0 102px 0;
+
+
+
+}
+
+#third-section .third-container .container h5{
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+
+
+}
+#third-section .third-container .container h1{
+
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+
+#third-section .third-container .container p{
+
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+/* #third-section .third-container .container .checkbox-li ul{
+/* ul.custom-bullets{ */
+
+    /* list-style-image: url("../images/CheckCircle.png"); */
+    /* list-style-type: none; */
+
+    /* If I want to bring that circle image in bullet popints */
+/* } */ 
+
+
+
+ 
+
+.container .checkbox-li .cbox img{
+
+    height: 16.5;
+    width: 16.5;
+
+}
+
+
+.container .checkbox-li .cbox{
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 6px;
+
+}
+
+
+
+#fourth-sction .fourth-container{
+
+        
+    width: 85%;
+    max-width: 1360px;
+    justify-content: center;
+    align-items: center;
+    margin: 2px auto 120px;    
+    text-align: center;
+
+}
+
+#fourth-sction .fourth-container .header-con{
+
+    margin: 80px 40px 24px;
+
+}
+
+#fourth-sction .fourth-container .header-con h1{
+
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+#fourth-sction .fourth-container .header-con p{
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+
+}
+
+
+.fourth-container .butt-text button{
+
+    margin-bottom: 16px;
+
+}
+
+.fourth-container .butt-text p{
+
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+
+}
+
+footer{
+
+    background-color: #001931;
+
+}
+.fnav{
+
+    width: 85%;
+    max-width: 1360px;
+    margin: 120px auto 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.copy{
+    text-align: center;
+
+}
 
 
 
