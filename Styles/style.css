@@ -336,12 +336,13 @@
 
 }
 
-#third-section .third-container .container p{
+#third-section .third-container .container .head p{
 
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-bottom: 40px;
+
 }
 
 
@@ -360,28 +361,42 @@
 
 
 
- 
-
-.container .checkbox-li .cbox img{
-
-    height: 16.5;
-    width: 16.5;
-
-}
-
-
-.container .checkbox-li .cbox{
+ .container .checkbox-li .cbox{
 
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 6px;
+    margin-bottom: 16px;
 
 }
 
+.container .checkbox-li .cbox img{
+
+    height: 16.5;
+    width: 16.5;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container .checkbox-li .cbox .chek-text{
+
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+
+}
+
+
+
+
+
 #fourth-sction{
 
-    background-color: #F7F6F2;
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
 
 }
 
@@ -400,8 +415,8 @@
 }
 
 #fourth-sction .fourth-container .header-con{
-
-    margin: 80px 40px 24px;
+    
+    padding: 80px 40px 24px;
 
 }
 
@@ -453,12 +468,38 @@ footer{
 
 
 }
-.fnav .icons-con{
 
-    color: #FFFFFF;
+
+.fnav .foot-logo{
+
+    width: 25%;
+    max-width: 350px;
 
 }
 
+.fnav .icons-con{
+
+    width: 16%;
+    max-width: 220px;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+.fnav .icons-con p{
+
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+
+.fnav .icons-con i{
+
+    height: 20px;
+    width: 20px;
+
+}
 .copy{
     width: 85%;
     max-width: 1360px;
