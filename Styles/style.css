@@ -379,6 +379,11 @@
 
 }
 
+#fourth-sction{
+
+    background-color: #F7F6F2;
+
+}
 
 
 #fourth-sction .fourth-container{
@@ -390,6 +395,7 @@
     align-items: center;
     margin: 2px auto 120px;    
     text-align: center;
+    background-color: #F7F6F2;
 
 }
 
